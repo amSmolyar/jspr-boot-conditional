@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class JavaConfig {
+public class  JavaConfig {
 
     @Bean
     @ConditionalOnProperty(name = "netology.profile.dev", havingValue = "true", matchIfMissing = true)
